@@ -8,7 +8,7 @@ defmodule Absinthe.Plug.GraphiQL.Assets do
     local_url_path: "/absinthe_graphiql",
     local_directory: "priv/static/absinthe_graphiql",
     local_source: ":package/:alias",
-    remote_source: "https://cdn.jsdelivr.net/npm/:package@:version/:file"
+    remote_source: "https://unpkg.com/:package@:version/:file"
   ]
 
   @react_version "15.6.1"
